@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Assignment 3 Advanced CSS GAME</title>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/desktop.css" media="only screen and (min-width: 481px)">
+    <link rel="stylesheet" type="text/css" href="../styles/mobile.css" media="only screen and (max-width: 480px)">
+    
+</head>
+
+<body>
+    
+    <div id="header"> <!--Header-->
+        <h1>Learning Addition</h1>
+    </div>
+    
+    <div class="top" id="newInfo"> <!--New Game Player ID FORM-->
+        
+            <h2>New Game?</h2>
+            <form method="post" action="http://examples.funwebdev.com/process.php">
+                <p>
+                    <label>Player 1:</label>
+                    <input type="text" name="player1" placeholder="Player 1">
+                </p>
+                <p>
+                    <label>Player 2:</label>
+                    <input type="text" name="player2" placeholder="Player 2">
+                </p>
+                <button type="submit" value="submit" class="newButton">New Game</button>
+            </form>
+        
+    </div>
+    
+    <div class="top" id="playerMove"> <!--Player Moves-->
+        <h2>Player 1's Move</h2>
+        <p>
+            Sum to beat: 8
+        </p>
+    </div>
+    
+    <div class="top" id="playerScore"> <!--Player Score-->
+        <h2>Player Scores</h2>
+        <p>Player 1: 10 points</p>
+        <p>Player 2: 8 points</p>
+    </div>
+    
+    <div class="top" id="endArea"> <!--End Area-->
+        <form method="post" action="http://examples.funwebdev.com/process.php">
+            <button type="submit" value="submit" class="end">End Turn</button>
+            <button type="submit" value="submit" class="end">End Game</button>
+        </form>
+    </div>
+    
+    <div id="gameArea"> <!--Game Area(Images each have their own respective div)-->
+        <div class="card one"></div>
+        <div class="card two"></div>
+        <div class="card three"></div>
+        <div class="card four"></div>
+        <div class="card five"></div>
+        <div class="card six"></div>
+        <div class="card seven"></div>
+        <div class="card eight"></div>
+        <div class="card nine"></div>
+        <div class="card ten"></div>
+    </div>
+    
+    <div id="footer"> <!--Footer-->
+        <p>&copy; Rafael Angelo Pucut COMP 2511-Assignment 3</p>
+    </div>
+    
+</body>
+
+</html>

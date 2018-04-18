@@ -1,0 +1,136 @@
+/*Desktop css*/
+p {
+    font-size: 20px;
+}
+
+.top {
+    width: 20%;
+    height: 240px;
+    float: left;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.end {
+    width: 80%;
+    height: 80%;
+    padding: 1em;
+    margin: 9%;
+    font-size: 20px;
+}
+
+#newInfo {
+    margin-left: 7.5%;
+}
+
+input {
+    width: 50%;
+}
+
+.newButton {
+    width: 60%;
+    height: 60%;
+    padding: 1%;
+}
+
+#gameArea {
+    width: 80%;
+    float: left;
+    padding-left: 12%;
+    padding-right: 2%;
+    margin-left: 3.5%;
+}
+
+/*Card styles*/
+.card {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 2%;
+}
+.one, .six {
+    background-image: url(../Graphics/Number0fullscreenweb.jpg);
+}
+
+.two, .seven {
+    background-image: url(../Graphics/Number1fullscreenwebnew.jpg);
+}
+
+.three, .eight {
+    background-image: url(../Graphics/Number2fullscreenwebnew.jpg);
+}
+.four, .nine {
+    background-image: url(../Graphics/Number3fullscreenwebnew.jpg);
+}
+
+.five, .ten {
+    background-image: url(../Graphics/Number4fullscreenwebnew.jpg);
+}
+
+div.six {
+    clear: left;
+}
+
+#footer {
+    margin: 1%;
+    margin-left: 11%;
+    width: 80%;
+    text-align: center;
+    float: left;
+}
+
+@media only screen and (max-width: 980px)
+{
+    div h2 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    
+    .top {
+        width: 20%;
+        height: 125px;
+        margin: 1%;
+    }
+    .newButton {
+        width: 40%;
+        height: 30%;
+    }
+    .end {
+        width: 50%;
+        height: 80%;
+        font-size: 10px;
+        padding: 3%;
+        margin: 1%;
+    }
+    #gameArea {
+        padding-left: 3%;
+        margin-left: 9%;
+    }
+    .card {
+        width: 116px;
+        height: 150px;
+        float: left;
+        margin: 2%;
+    }
+    .one, .six {
+        background-image: url(../Graphics/Number0tablet.jpg);
+    }
+
+    .two, .seven {
+        background-image: url(../Graphics/Number1tablet.jpg);
+    }
+
+    .three, .eight {
+        background-image: url(../Graphics/Number2tablet.jpg);
+    }
+    .four, .nine {
+        background-image: url(../Graphics/Number3tablet.jpg);
+    }
+
+    .five, .ten {
+        background-image: url(../Graphics/Number4tablet.jpg);
+    }
+    
+}
